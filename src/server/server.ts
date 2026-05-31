@@ -7,3 +7,5 @@ server.get("/", (req, res) => {
 });
 
 export { server };
+
+server.listen(3333, () => {});
